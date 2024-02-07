@@ -1,0 +1,5 @@
+31-10-2023-11:57:34.198 [main] INFO  logging.demo.sample.LogDemo1 - This is info
+31-10-2023-11:57:34.200 [main] ERROR logging.demo.sample.LogDemo1 - This is error
+31-10-2023-11:57:34.200 [main] FATAL logging.demo.sample.LogDemo1 - This is fatal
+31-10-2023-11:57:34.201 [main] WARN  logging.demo.sample.LogDemo1 - This is warn
+31-10-2023-11:57:34.201 [main] TRACE logging.demo.sample.LogDemo1 - This is trace

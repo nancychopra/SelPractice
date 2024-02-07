@@ -1,0 +1,61 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Suite1" verbose="1" >
+    <listeners>
+        <listener class-name="e2e.testcomponents.Listener"></listener>
+    </listeners>
+
+
+    <test name="Personal" parallel="methods" thread-count="3">
+
+        <parameter name="URL" value="http://google.com"></parameter>
+        <parameter name="method" value="somemethod"></parameter>
+        <groups>
+            <run>
+                <!--<include name="smoke"></include>-->
+               <!-- <include name="regression"></include>-->
+           </run>
+       </groups>
+       <classes>
+           <class name="test.example.day1">
+               <methods>
+                   <!--<exclude name="test.*"></exclude>-->
+                </methods>
+                
+            </class>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="newFeature"/>
+                </methods>
+            </class>
+            
+        </classes>
+    </test>
+
+    <test name="Business">
+        <classes>
+            <class name="test.example.day2"/>
+        </classes>
+    </test>
+    <test name="Learning">
+        <classes>
+            <class name="org.example.Tabs">
+                <methods>
+                    <exclude name="testBrokenLink"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Ecommerce" >
+        <classes>
+            <class name="e2e.tests.Ecommerce">
+            </class>
+        </classes>
+    </test>
+    <test name="Error Validations">
+        <classes>
+            <class name="e2e.tests.ErrorValidation"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,368 @@
+21:40:26.719 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+21:40:26.720 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:40:26.811 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+21:40:26.830 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - mapping values are not allowed here
+ in 'string', line 34, column 16:
+          osVersion: 11
+                   ^
+.
+21:40:26.831 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:40:26.832 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+21:40:26.902 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Empty userName or accessKey
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+21:43:05.571 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+21:43:05.572 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:43:05.669 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+21:43:05.689 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - mapping values are not allowed here
+ in 'string', line 34, column 16:
+          osVersion: 11
+                   ^
+.
+21:43:05.689 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:43:05.691 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+21:43:05.760 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Empty userName or accessKey
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+21:44:34.212 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+21:44:34.213 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:44:34.301 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+21:44:34.321 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:44:34.578 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:44:37.454 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:44:53.685 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: You provided an invalid key.
+21:44:53.686 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed You provided an invalid key.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+21:45:40.743 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+21:45:40.744 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:45:40.832 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+21:45:40.852 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:45:40.943 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:45:43.713 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:45:49.773 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: You provided an invalid key.
+21:45:49.774 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed You provided an invalid key.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+21:47:29.238 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+21:47:29.239 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:47:29.333 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+21:47:29.354 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:47:29.589 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:47:32.253 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:47:40.071 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:48:05.112 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/7ickggrns7wpmx7oczuhasvcpldxny7tkjfxwtta to view build report, insights, and many more debugging information all at one place!
+
+21:48:05.534 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f7f5b96b445dc49a357518234b3fa0ab12610ee0
+21:48:05.534 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:48:08.085 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+21:49:57.140 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+21:49:57.141 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:49:57.231 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+21:49:57.254 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:49:57.526 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:50:00.079 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:50:07.259 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:50:28.828 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/fr9poiusxkxr7vh7r3limuee9c63hmuwnzmv77ll to view build report, insights, and many more debugging information all at one place!
+
+21:50:29.300 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7d9a574dc6b36eaa515dc706590c4aa3e6d03a43
+21:50:29.300 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:50:31.694 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+21:51:30.805 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+21:51:30.806 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:51:30.894 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+21:51:30.915 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:51:31.003 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:51:33.977 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:51:41.731 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:52:07.322 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/nlbqvnxg09cnbujm3hmttf88oojf59gkin6vssel to view build report, insights, and many more debugging information all at one place!
+
+21:52:07.750 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5c6b0f418176339203e05dd35025a7930da8a51a
+21:52:07.750 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:52:10.577 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+21:52:45.705 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+21:52:45.706 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:52:45.795 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+21:52:45.815 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:52:45.903 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:52:48.792 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:52:56.518 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:53:20.300 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/4mzedquilsvkvtadd1dr81hidokyo881bvfv0a0p to view build report, insights, and many more debugging information all at one place!
+
+21:53:20.733 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/fa9414d49c0e54cb197104b63c81b07d42915b17
+21:53:20.734 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:53:23.436 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+21:57:31.056 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+21:57:31.058 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:57:31.147 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+21:57:31.167 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:57:31.626 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:57:34.292 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:57:41.184 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:57:56.065 [Test1-0@0] ERROR c.b.utils.SeleniumMethodUtils - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"test.example.TestDemo-titleCheck"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, optimalHubUrl: hub-aps.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: c79b35c5b08c801e66bcdff2614..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+21:57:57.661 [Test1-1@1] ERROR c.b.utils.SeleniumMethodUtils - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"test.example.TestDemo-titleCheck"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:2862}, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ecb91b5bd8492808098c109fa7e...}
+21:58:01.990 [Test1-2@2] ERROR c.b.utils.SeleniumMethodUtils - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"test.example.TestDemo-titleCheck"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 7636, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b4f7b490146409361af041e84ee...}
+21:58:20.940 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/g9wp0mdypcx8vmhzrdvymaudrbsx0dqsm3xcbvlv to view build report, insights, and many more debugging information all at one place!
+
+21:58:21.381 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c72cacd651fdda0f12fd5ee1321fb7256f236cc0
+21:58:21.382 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:58:23.959 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+22:00:43.889 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+22:00:43.890 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+22:00:43.996 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+22:00:44.016 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:00:44.415 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+22:00:47.283 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:00:55.771 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:01:13.629 [Test1-0@0] ERROR c.b.utils.SeleniumMethodUtils - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"test.example.TestDemo-titleCheck"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:2833}, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 53534296078d7b622b5954c7966...}
+22:01:13.767 [Test1-1@1] ERROR c.b.utils.SeleniumMethodUtils - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"test.example.TestDemo-titleCheck"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, optimalHubUrl: hub-aps.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 3f50845ac2a1cd385121de531c9..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+22:01:15.060 [Test1-2@2] ERROR c.b.utils.SeleniumMethodUtils - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.2.1', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"test.example.TestDemo-titleCheck"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 11068, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: c13887dd49e0767635fd989341e...}
+22:01:37.382 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/amqd3crqgwggdukmou4mnocspv2l9tbhl9u2utpg to view build report, insights, and many more debugging information all at one place!
+
+22:01:37.769 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/3d1a6db73f589e7e7e7cf4b91e9b8f88bd5742f7
+22:01:37.769 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:01:40.326 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+11:43:08.390 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:43:08.391 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+11:43:08.516 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+11:43:08.546 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:43:08.701 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:43:11.241 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:43:18.001 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:43:19.588 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:43:20.350 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/iqgmlk8haaxsqcrf8icosqsfkcyure0evlkha5kp to view build report, insights, and many more debugging information all at one place!
+
+11:43:23.187 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+11:45:35.978 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:45:35.979 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+11:45:36.100 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+11:45:36.126 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:45:36.236 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:45:38.995 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:45:45.616 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:45:47.104 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:46:03.341 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/nisudnykww7o3jvthlzasm4uhvpwudzhfu0nlfug to view build report, insights, and many more debugging information all at one place!
+
+11:46:03.751 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/04d940801478c29f0dab885913dfa9acaddf5dc6
+11:46:03.751 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+11:46:06.361 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:03:03.982 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+12:03:03.984 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:03:04.108 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+12:03:04.146 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:03:04.307 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:03:06.959 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:03:13.703 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:03:15.254 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:03:30.305 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ggpyikcspqs3qk6cpnkzstxrzc0ioq0zrxkuggzw to view build report, insights, and many more debugging information all at one place!
+
+12:03:30.820 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/92eb4cf4ce1864d82363e651e824b2e494dc62e7
+12:03:30.820 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:03:33.240 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:04:26.679 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+12:04:26.680 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:04:26.782 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+12:04:26.809 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:04:26.921 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:04:29.570 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:04:36.181 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:04:37.732 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:04:56.563 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/kulcxdpbhiuaft2bss1wx92vgpgwipgzbuznf1xi to view build report, insights, and many more debugging information all at one place!
+
+12:04:57.838 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/a34399e770f0bbe63637259d0145d237fbb019fb
+12:04:57.838 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:04:59.581 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:05:40.226 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+12:05:40.228 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:05:40.347 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+12:05:40.378 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:05:40.495 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:05:43.013 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:05:49.803 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:05:51.239 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:06:07.085 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qcvkruytjjxez4xyqakhkddf4fbs0u9w1ucfuinu to view build report, insights, and many more debugging information all at one place!
+
+12:06:07.497 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/6ec9bca56ed0e44de43703176b91234c4ebafba0
+12:06:07.497 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:06:09.874 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:07:09.532 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+12:07:09.533 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:07:09.658 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+12:07:09.686 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:07:09.818 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:07:13.341 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:07:20.110 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:07:21.585 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:07:32.877 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/4zy2zkxhdmzyogdmmxuvsw291cc3qogpg2svixo5 to view build report, insights, and many more debugging information all at one place!
+
+12:07:33.245 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5b42af41f54295373b0767e0d340d3005609d406
+12:07:33.245 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:07:36.972 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:07:39.090 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+12:07:39.091 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:07:39.222 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+12:07:39.252 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:07:39.371 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:07:41.859 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:07:48.338 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:07:49.829 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:08:07.513 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/kyu3jmwnugotdpkebhfiyxiiaetc1lphp4onjzt4 to view build report, insights, and many more debugging information all at one place!
+
+12:08:07.924 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/819f57508c9018e00d13fc187867ebab54231f0c
+12:08:07.924 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:08:10.270 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:09:11.094 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+12:09:11.095 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:09:11.217 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+12:09:11.246 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:09:11.417 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:09:14.053 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:09:20.771 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:09:22.207 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:09:42.578 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/sgai1r3uqcqts1zf0rvyjg2pmtqd9lxtu75rqtqm to view build report, insights, and many more debugging information all at one place!
+
+12:09:42.980 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/937cb35f673572c0359d5f329e527c3d2d67ec5a
+12:09:42.980 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:09:46.190 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+12:09:52.392 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:10:53.095 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:11:55.108 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:19:25.259 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:20:02.718 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:20:49.312 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:25:19.928 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:26:05.236 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:28:19.668 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:30:51.083 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:34:14.727 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:34:56.670 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:35:45.748 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:37:21.971 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:37:52.685 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:46:38.722 [main] INFO  c.b.config.BrowserStackConfig - INFO
+14:56:30.568 [main] INFO  c.b.config.BrowserStackConfig - INFO
+14:57:11.982 [main] INFO  c.b.config.BrowserStackConfig - INFO
+14:57:39.272 [main] INFO  c.b.config.BrowserStackConfig - INFO
+14:59:50.842 [main] INFO  c.b.config.BrowserStackConfig - INFO
+15:36:24.539 [main] INFO  c.b.config.BrowserStackConfig - INFO
+15:37:37.141 [main] INFO  c.b.config.BrowserStackConfig - INFO
+15:47:53.393 [main] INFO  c.b.config.BrowserStackConfig - INFO
+15:57:51.102 [main] INFO  c.b.config.BrowserStackConfig - INFO
+15:59:40.206 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:02:37.908 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:03:14.527 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:07:01.285 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:08:19.041 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:08:59.784 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:55:42.929 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:58:49.848 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:00:47.423 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:06:05.879 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:10:09.348 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:11:21.177 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:13:07.934 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:13:56.630 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:17:04.605 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:56:45.693 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:08:56.786 [main] INFO  c.b.config.BrowserStackConfig - INFO
+21:57:12.811 [main] INFO  c.b.config.BrowserStackConfig - INFO
+21:57:24.546 [main] INFO  c.b.config.BrowserStackConfig - INFO
+21:58:51.076 [main] INFO  c.b.config.BrowserStackConfig - INFO
+21:59:12.189 [main] INFO  c.b.config.BrowserStackConfig - INFO
+21:59:44.607 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:01:35.393 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:02:55.402 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:03:32.072 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:03:57.589 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:09:40.391 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:11:08.233 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:13:35.220 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:14:08.569 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:21:22.034 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:22:33.162 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:23:09.642 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:24:46.279 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:24:56.783 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:37:26.351 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:42:27.940 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:44:44.690 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:46:32.767 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:47:11.045 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:49:06.223 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:50:21.428 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:51:29.479 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:52:26.527 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:06:40.561 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.11.0
+17:06:40.562 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:06:40.649 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/nancychopra/workspace/Selenium/browserstack.yml
+17:06:40.673 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:06:41.020 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:06:43.870 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:06:50.659 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:08:06.809 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/yxyacb6txge83hxzgo2akpnqjcqdbe6w8pd9k3rt to view build report, insights, and many more debugging information all at one place!
+
+17:08:08.037 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/a190fd27fde8df43b68b9dd979749730e1a4b5b8
+17:08:08.037 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:08:09.891 [Thread-3] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+17:10:30.721 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:14:02.186 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:15:41.974 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:16:35.569 [main] INFO  c.b.config.BrowserStackConfig - INFO

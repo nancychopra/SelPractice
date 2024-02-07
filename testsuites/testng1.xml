@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Suite1" verbose="1" >
+    <listeners>
+        <listener class-name="e2e.testcomponents.Listener"></listener>
+    </listeners>
+    <test name="Learning">
+        <classes>
+            <class name="org.example.Tabs">
+                <methods>
+                    <include name="testBrokenLink"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

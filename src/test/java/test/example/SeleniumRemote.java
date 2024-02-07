@@ -18,7 +18,7 @@ public class SeleniumRemote {
     public void googleTest() throws MalformedURLException, InterruptedException {
 
         DesiredCapabilities caps= new DesiredCapabilities();
-        URL url = new URL("http://43.204.38.251:4444/wd/hub");
+        URL url = new URL("http://13.233.127.169:4444/wd/hub");
         caps.setPlatform(Platform.LINUX);
         //caps.setBrowserName("MicrosoftEdge");
         caps.setBrowserName("chrome");
